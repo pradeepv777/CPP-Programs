@@ -16,7 +16,7 @@ int main() {
     while (!gameOver) {
         drawBoard(spaces);
         int move;
-        std::cout << "Player " << player << ", enter your move (1-9): ";
+        std::cout << "Players " << player << ", enter your move (1-9): ";
         std::cin >> move;
         move--;
 
